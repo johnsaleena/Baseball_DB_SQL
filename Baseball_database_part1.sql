@@ -1,8 +1,8 @@
-#1.Using the Batting table, write a query that select the playerid, teamid, Hits (H), Home Runs (HR) and Walks (BB) for every player (Slide 15)
+#1.Using the Batting table, write a query that select the playerid, teamid, Hits (H), Home Runs (HR) and Walks (BB) for every player
 SELECT playerID, teamID, H as Hits, HR as "Home Runs", BB as Walks
 FROM Batting
 
-#2.	Modify the query you wrote in #1 to be sorted by playerid in descending order and the teamid in ascending order (Slide 34)
+#2.	Modify the query you wrote in #1 to be sorted by playerid in descending order and the teamid in ascending order 
 ORDER BY playerID desc,
 	teamID
   
